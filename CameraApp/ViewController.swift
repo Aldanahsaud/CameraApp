@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     let img = UIImageView(frame: CGRect(x: 100 , y: 100, width: 200, height: 200))
     let usernameTxt = UITextField(frame: CGRect(x: 50, y: 360, width: 300, height: 40))
     let passwordTxt = UITextField(frame: CGRect(x: 50, y: 420, width: 300, height: 40))
-    let signInBtn = UIButton(frame: CGRect(x: 50 , y: 490, width: 300, height: 40))
+    let signInBtn = UIButton(frame: CGRect(x: 50 , y: 100, width: 300, height: 40))
     
     override func viewDidLoad() {
         super.viewDidLoad()
